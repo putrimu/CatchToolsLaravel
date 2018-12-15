@@ -1,1 +1,1 @@
-# CatchToolsLaravel
+[![Build Status](https://travis-ci.org/putrimu/CatchToolsLaravel.svg?branch=master)](https://travis-ci.org/putrimu/CatchToolsLaravel)# CatchToolsLaravel
