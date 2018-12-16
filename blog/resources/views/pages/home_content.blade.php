@@ -1,5 +1,6 @@
 @extends('layout')
 @section('content')
+
 <h2 class="title text-center">Features Items</h2>
 <div class="col-sm-4">
     <div class="product-image-wrapper">
