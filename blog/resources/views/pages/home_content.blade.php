@@ -1,5 +1,5 @@
 @extends('layout')
-@section('content')
+@section('home_content')
 
 <h2 class="title text-center">Features Items</h2>
 <div class="col-sm-4">
