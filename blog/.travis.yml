@@ -1,12 +1,19 @@
+# role user
+sudo: required
+
+# OS yang digunakan, precies, trusty, xenial
+dist: trusty
+
+# bahasa yang digunakan
 language: php
 
+# Versi bahasa yang digunakan
 php:
-  - 7.0
+  - 7.2.4
 
 before_script:
-  - travis_retry composer self-update
-  - travis_retry composer install --prefer-source --no-interaction --dev
-  - cp .env.example .env
+  - cp .env.travis .env
+  - composer install --no-interaction
   - php artisan key:generate
 
 script:
