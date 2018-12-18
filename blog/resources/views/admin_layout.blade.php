@@ -371,8 +371,7 @@
 			<!-- start: Content -->
 			<div id="content" class="span10">
 			
-					@yield('admin_content')
-
+					 
 
 	</div><!--/.fluid-container-->
 	
