@@ -276,7 +276,7 @@
                                                   ->get();
                             foreach($all_published_manufacture as $v_manufacture){?> 
 
-                                    <li><a href="{{URL::to('/product_by_manufacture/'.$v_manufacture->manufacture_id)}}"> <span class="pull-right">(50)</span>{{$v_manufacture->manufacture_name}}</a></li>
+                                    <li><a href="{{URL::to('/product_by_manufacture/'.$v_manufacture->manufacture_id)}}"> <span class="pull-right"></span>{{$v_manufacture->manufacture_name}}</a></li>
                          <?php } ?>   
                                 </ul>
                             </div>

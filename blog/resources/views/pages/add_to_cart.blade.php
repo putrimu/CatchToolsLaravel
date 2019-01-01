@@ -67,7 +67,7 @@
 		<div class="container">
 			<div class="heading">
 				<h3>Bagai mana selanjutnya?</h3>
-				<p>Masukkan kode diskon atau reward jika adnda memilikinya.</p>
+				<p>Masukkan kode diskon atau reward jika anda memilikinya.</p>
 			</div>
 			<div class="row">		
 				<div class="col-sm-8">
@@ -81,10 +81,10 @@
 							<a class="btn btn-default update" href="">Update</a><br>
                        <?php $customer_id=Session::get('customer_id'); ?>
                        <?php if($customer_id != NULL){?>
-                          <li><a href="{{URL::to('/checkout')}}"><i class="btn btn-default"> Checkout</i></a>
+                          <li><a href="{{URL::to('/checkout')}}"><i class="btn btn-default"> Sewa</i></a>
                           </li>
                       <?php  }else{?>
-                             <li><a class="btn btn-default check_out" href="{{URL::to('/login-check')}}">Check Out</a></li>
+                             <li><a class="btn btn-default check_out" href="{{URL::to('/login-check')}}">Sewa</a></li>
                         <?php } ?>
 
 					</div>

@@ -5,7 +5,7 @@
 						<div class="col-sm-5">
 							<div class="view-product">
 								<img src="{{URL::to($product_by_details->product_image)}}" alt="" />
-								<h3>ZOOM</h3>
+								
 							</div>
 						</div>
 						<div class="col-sm-7">
@@ -15,7 +15,7 @@
 								<p>Color: {{$product_by_details->product_color}}</p>
 								<img src="{{URL::to('frontend/images/product-details/rating.png')}}" alt="" />
 								<span>
-									<span>{{$product_by_details->product_price}} Tk</span>
+									<span>Rp {{$product_by_details->product_price}}</span>
 									<form action="{{url('/add-to-cart')}}" method="post">
 										{{ csrf_field() }}
 										<label>Quantity:</label>
@@ -23,15 +23,15 @@
 										<input type="hidden" name="product_id" value="{{$product_by_details->product_id}}">
 										<button type="submit" class="btn btn-fefault cart">
 											<i class="fa fa-shopping-cart"></i>
-											Add to cart
+											Masukkan Ke Keranjang
 										</button>
 									</form>
 								</span>
-								<p><b>Availability:</b> In Stock</p>
-								<p><b>Condition:</b> New</p>
+								<p><b>Status:</b> Barang Tersedia</p>
+								
 								<p><b>Brand:</b> {{$product_by_details->manufacture_name}}</p>
 								<p><b>Category:</b> {{$product_by_details->category_name}}</p>
-								<p><b>Size:</b> {{$product_by_details->product_size}}</p>
+								<p><b>Jumlah Barang</b> {{$product_by_details->product_size}}</p>
 								
 							</div><!--/product-information-->
 						</div>
@@ -41,9 +41,8 @@
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
 								<li><a href="#details" data-toggle="tab">Details</a></li>
-								<li><a href="#companyprofile" data-toggle="tab">Company Profile</a></li>
-								<li><a href="#tag" data-toggle="tab">Tag</a></li>
-								<li class="active"><a href="#reviews" data-toggle="tab">Reviews (5)</a></li>
+								
+								<li class="active"><a href="#reviews" data-toggle="tab">Syarat Penyewaan</a></li>
 							</ul>
 						</div>
 						<div class="tab-content">
@@ -84,24 +83,14 @@
 							<div class="tab-pane fade active in" id="reviews" >
 								<div class="col-sm-12">
 									<ul>
-										<li><a href=""><i class="fa fa-user"></i>EUGEN</a></li>
-										<li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
-										<li><a href=""><i class="fa fa-calendar-o"></i>31 DEC 2014</a></li>
 									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-									<p><b>Write Your Review</b></p>
+									<p>Aturan penyewaan di Catch Tools.</p>
+									<p>Menyerahkan KTP sebagai jaminan saat pengambilan barang, yang akan dikembalikan setelah penyewa mengembalikan barang yang telah selesai disewa.</p>
+									<p>Penyewa telah melunasi pembayaran yang tertera di web saat pengambilan barang yang terhitung sebagai peminjaman satu hari</p>
+									<p>Pengembalian barang dihitung per 24 jam. Jika melebihi batas waktu maka terhitung peminjaman di hari berikutnya dan akan dibayarkan sisanya saat pengembalian barang di kalkulasikan dengan sisa hari yang belum terbayarkan.</p>
+									<p><b>Catch Tools</b></p>
 									
-									<form action="#" >
-										<span>
-											<input type="text" placeholder="Your Name"/>
-											<input type="email" placeholder="Email Address"/>
-										</span>
-										<textarea name="" ></textarea>
-										<b>Rating: </b> <img src="{{URL::to('frontend/images/product-details/rating.png')}}" alt="" />
-										<button type="button" class="btn btn-default pull-right">
-											Submit
-										</button>
-									</form>
+									
 								</div>
 							</div>
 							

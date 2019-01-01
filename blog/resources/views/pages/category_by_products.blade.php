@@ -57,7 +57,7 @@
                             <div class="single-products">
                                 <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend2.jpg')}}" alt="" />
-                                    <h2>70000</h2>
+                                    <h2>Rp 70000</h2>
                                     <p>Camera</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 </div>
@@ -70,7 +70,7 @@
                             <div class="single-products">
                                 <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend3.jpg')}}" alt="" />
-                                    <h2>Rp 4000</h2>
+                                    <h2>Rp 40000</h2>
                                     <p>Ps3</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 </div>
@@ -88,35 +88,35 @@
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend1.jpg')}}" alt="" />
+                                    <img src="{{URL::to('frontend/images/home/recommend4.jpg')}}" alt="" />
+                                    <h2>Rp 20000</h2>
+                                    <p>Koper</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="{{URL::to('frontend/images/home/recommend5jpg')}}" alt="" />
+                                    <h2>10000</h2>
+                                    <p>Canddle Glass</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="{{URL::to('frontend/images/home/recommend6.jpg')}}" alt="" />
                                     <h2>Rp 50000</h2>
-                                    <p>Microwave</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend2.jpg')}}" alt="" />
-                                    <h2>70000</h2>
-                                    <p>Camera</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend3.jpg')}}" alt="" />
-                                    <h2>Rp 4000</h2>
-                                    <p>Ps3</p>
+                                    <p>Standing AC</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 </div>
                                 

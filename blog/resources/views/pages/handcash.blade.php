@@ -7,7 +7,7 @@
 					<div class="login-form"><!--login form-->
 						<h1>Terimakasi telah menyewa dari kami</h1>
 
-						<h2>Kami akan menghubungi secepatnya</h2>
+						<h2>Kami akan menghubungi anda secepatnya</h2>
 					</div><!--/login form-->
 				</div>
 				<div class="col-sm-1">

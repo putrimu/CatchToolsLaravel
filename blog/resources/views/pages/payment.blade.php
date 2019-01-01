@@ -72,19 +72,19 @@
 		<div class="breadcrumbs">
 			<ol class="breadcrumb">
 			  <li><a href="#">Home</a></li>
-			  <li class="active">Payment method</li>
+			  <li class="active">Metode Pembayaran</li>
 			</ol>
 		</div>
 		<div class="paymentCont col-sm-8">
 					<div class="headingWrap">
-							<h3 class="headingTop text-center">Select Your Payment Method</h3>	
-							<p class="text-center">Created with bootsrap button and using radio button</p>
+							<h3 class="headingTop text-center">Pilih Metode Pembayaran</h3>	
+							<p class="text-center">Metode pembayaran dapat dipilih sesuai keininan anda</p>
 					</div>	
 				<form action="{{url('/order-place')}}" method="post">
 					{{csrf_field()}}
-				  <input type="radio" name="payment_method" value="handcash"> Hand Cash<br>
-				  <input type="radio" name="payment_method" value="cart"> Debit Card<br>
-				  <input type="radio" name="payment_method" value="paypal"> Paypal<br>
+				  <input type="radio" name="payment_method" value="handcash">Cash<br>
+				  <input type="radio" name="payment_method" value="transfer">Transfer<br>
+				  
 				  <input type="submit" name="" value="Done">
 				</form>
 					

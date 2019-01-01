@@ -8,13 +8,13 @@
                 <div class="single-products">
                         <div class="productinfo text-center">
                             <img src="{{URL::to($v_published_product->product_image)}}" style="height: 300px;" alt="" />
-                            <h2>{{$v_published_product->product_price}} Tk</h2>
+                            <h2>Rp {{$v_published_product->product_price}} </h2>
                              <p>{{$v_published_product->product_name}}</p> 
                             <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
                         </div>
                         <div class="product-overlay">
                             <div class="overlay-content">
-                                <h2>{{$v_published_product->product_price}} Tk</h2>
+                                <h2>Rp {{$v_published_product->product_price}} </h2>
                                 <a href="{{URL::to('/view_product/'.$v_published_product->product_id)}}"><p>{{$v_published_product->product_name}}</p></a>
                                 <a href="{{URL::to('/view_product/'.$v_published_product->product_id)}}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                             </div>
@@ -30,296 +30,8 @@
         </div>
        <?php } ?>
      
-    </div><!--features_items-->
-    
-    <div class="category-tab"><!--category-tab-->
-        <div class="col-sm-12">
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#elektronikdangedget" data-toggle="tab">Elektronik dan Gedget</a></li>
-                <li><a href="#rt" data-toggle="tab">Rumah Tangga</a></li>
-                <li><a href="#hobidanolahraga" data-toggle="tab">Hobi dan Olahraga</a></li>
-                <li><a href="#furniture" data-toggle="tab">Furniture</a></li>
-                <li><a href="#properti" data-toggle="tab">Properti</a></li>
-            </ul>
-        </div>
-        <div class="tab-content">
-            <div class="tab-pane fade active in" id="tshirt" >
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery1.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Sewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery2.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery3.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery4.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="tab-pane fade" id="blazers" >
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery4.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery3.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery2.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery1.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="tab-pane fade" id="sunglass" >
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery3.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery4.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery1.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery2.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="tab-pane fade" id="kids" >
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery1.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery2.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery3.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery4.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="tab-pane fade" id="poloshirt" >
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery2.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery4.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery3.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center">
-                                <img src="{{URL::to('frontend/images/home/gallery1.jpg')}}" alt="" />
-                                <h2>300000</h2>
-                                <p>Barang untuk disewa</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--/category-tab-->
-    
+    </div>
+
     <div class="recommended_items"><!--recommended_items-->
         <h2 class="title text-center">Barang Rekomendasi</h2>
         
@@ -331,8 +43,8 @@
                             <div class="single-products">
                                 <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend1.jpg')}}" alt="" />
-                                    <h2>300000</h2>
-                                    <p>Barang untuk disewa</p>
+                                    <h2>Rp 150000</h2>
+                                    <p>Microwave</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
                                 </div>
                                 
@@ -344,8 +56,8 @@
                             <div class="single-products">
                                 <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend2.jpg')}}" alt="" />
-                                    <h2>300000</h2>
-                                    <p>Barang untuk disewa</p>
+                                    <h2>Rp 60000</h2>
+                                    <p>Camera Canon</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
                                 </div>
                                 
@@ -356,9 +68,9 @@
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend3.jpg')}}" alt="" />
-                                    <h2>300000</h2>
-                                    <p>Barang untuk disewa</p>
+                                    <img src="{{URL::to('frontend/images/home/recommend6.jpg')}}" alt="" />
+                                    <h2>Rp 100000</h2>
+                                    <p>Standing AC</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
                                 </div>
                                 
@@ -371,35 +83,35 @@
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend1.jpg')}}" alt="" />
-                                    <h2>300000</h2>
-                                    <p>Barang untuk disewa</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend2.jpg')}}" alt="" />
-                                    <h2>300000</h2>
-                                    <p>Barang untuk disewa</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend3.jpg')}}" alt="" />
-                                    <h2>300000</h2>
-                                    <p>Barang untuk disewa</p>
+                                    <h2>Rp 100000</h2>
+                                    <p>PS 3</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="{{URL::to('frontend/images/home/recommend4.jpg')}}" alt="" />
+                                    <h2>Rp 35000</h2>
+                                    <p>Koper</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="{{URL::to('frontend/images/home/recommend5.jpg')}}" alt="" />
+                                    <h2>Rp 10000</h2>
+                                    <p>Canddle Lamp</p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke Keranjang</a>
                                 </div>
                                 
