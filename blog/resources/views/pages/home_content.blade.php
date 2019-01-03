@@ -22,7 +22,8 @@
                 </div>
                 <div class="choose">
                     <ul class="nav nav-pills nav-justified">
-                        <li><a href="#"><i class="fa fa-plus-square"></i>{{$v_published_product->manufacture_name}}</a></li>
+                        <li><a href="#"><i class="fa fa-plus-square"></i>Masukkan ke daftar suka</a></li>
+                        
                         <li><a href="{{URL::to('/view_product/'.$v_published_product->product_id)}}"><i class="fa fa-plus-square"></i>Lihat Produk</a></li>
                     </ul>
                 </div>

@@ -213,7 +213,7 @@
                       <?php  }else{?>
                              <li><a href="{{URL::to('/login-check')}}"> Bayar</a></li>
                         <?php } ?>
-                                        <li><a href="{{URL::to('/show-cart')}}">Keranjang Belanja</a></li> 
+                                        <li><a href="{{URL::to('/show-cart')}}">Keranjang Sewa</a></li> 
                                         
                                     </ul>
                                 </li> 

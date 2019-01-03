@@ -78,7 +78,6 @@
 							<li>Pengiriman<span>Gratis</span></li>
 							<li>Total <span>{{Cart::total()}}</span></li>
 						</ul>
-							<a class="btn btn-default update" href="">Update</a><br>
                        <?php $customer_id=Session::get('customer_id'); ?>
                        <?php if($customer_id != NULL){?>
                           <li><a href="{{URL::to('/checkout')}}"><i class="btn btn-default"> Sewa</i></a>

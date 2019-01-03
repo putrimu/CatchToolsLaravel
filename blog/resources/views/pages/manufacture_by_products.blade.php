@@ -1,28 +1,28 @@
 @extends('layout')
 @section('content')
-<h2 class="title text-center">Features Items</h2>
+<h2 class="title text-center">Brands Item</h2>
      <?php foreach($product_by_manufacture as $v_manufacture_by_product){?>
         <div class="col-sm-4">
             <div class="product-image-wrapper">
                 <div class="single-products">
                         <div class="productinfo text-center">
                             <img src="{{URL::to($v_manufacture_by_product->product_image)}}" style="height: 300px;" alt="" />
-                            <h2>{{$v_manufacture_by_product->product_price}} Tk</h2>
+                            <h2>Rp {{$v_manufacture_by_product->product_price}} </h2>
                             <p>{{$v_manufacture_by_product->product_name}}</p>
-                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                            <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                         </div>
                         <div class="product-overlay">
                             <div class="overlay-content">
-                                <h2>{{$v_manufacture_by_product->product_price}} Tk</h2>
+                                <h2>Rp {{$v_manufacture_by_product->product_price}} </h2>
                                 <p>{{$v_manufacture_by_product->product_name}}</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                             </div>
                         </div>
                 </div>
                 <div class="choose">
                     <ul class="nav nav-pills nav-justified">
                         <li><a href="#"><i class="fa fa-plus-square"></i>{{$v_manufacture_by_product->manufacture_name}}</a></li>
-                        <li><a href="#"><i class="fa fa-plus-square"></i>View Product</a></li>
+                         <li><a href="#"><i class="fa fa-plus-square"></i>Lihat Produk</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,9 +32,9 @@
     </div><!--features_items-->
     
    
-    
+
     <div class="recommended_items"><!--recommended_items-->
-        <h2 class="title text-center">recommended items</h2>
+        <h2 class="title text-center">Barang Rekomendasi</h2>
         
         <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -44,10 +44,9 @@
                             <div class="single-products">
                                 <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend1.jpg')}}" alt="" />
-                                    <h2>$56</h2>
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                </div>
+                                    <h2>Rp 150000</h2>
+                                    <p>Microwave</p>
+                                    <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 
                             </div>
                         </div>
@@ -57,9 +56,9 @@
                             <div class="single-products">
                                 <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend2.jpg')}}" alt="" />
-                                    <h2>$56</h2>
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <h2>Rp 60000</h2>
+                                    <p>Camera Canon</p>
+                                    <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 </div>
                                 
                             </div>
@@ -69,10 +68,10 @@
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend3.jpg')}}" alt="" />
-                                    <h2>$56</h2>
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <img src="{{URL::to('frontend/images/home/recommend6.jpg')}}" alt="" />
+                                    <h2>Rp 100000</h2>
+                                    <p>Standing AC</p>
+                                    <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 </div>
                                 
                             </div>
@@ -84,36 +83,36 @@
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend1.jpg')}}" alt="" />
-                                    <h2>$56</h2>
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
-                                    <img src="{{URL::to('frontend/images/home/recommend2.jpg')}}" alt="" />
-                                    <h2>$56</h2>
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
                                     <img src="{{URL::to('frontend/images/home/recommend3.jpg')}}" alt="" />
-                                    <h2>$56</h2>
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <h2>Rp 100000</h2>
+                                    <p>PS 3</p>
+                                   <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="{{URL::to('frontend/images/home/recommend4.jpg')}}" alt="" />
+                                    <h2>Rp 35000</h2>
+                                    <p>Koper</p>
+                                    <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img src="{{URL::to('frontend/images/home/recommend5.jpg')}}" alt="" />
+                                    <h2>Rp 10000</h2>
+                                    <p>Canddle Lamp</p>
+                                   <a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Masukkan ke keranjang</a>
                                 </div>
                                 
                             </div>

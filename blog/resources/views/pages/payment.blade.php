@@ -5,8 +5,8 @@
 		<div class="container col-sm-12">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li><a href="#">Home</a></li>
-				  <li class="active">Shopping Cart</li>
+				  <li><a href="#">Beranda</a></li>
+				  <li class="active">Keranjang Sewa</li>
 				</ol>
 			</div>
 			<div class="table-responsive cart_info">
@@ -17,10 +17,10 @@
 				<table class="table table-condensed">
 					<thead>
 						<tr class="cart_menu">
-							<td class="image">Image</td>
-							<td class="description">Name</td>
-							<td class="price">Price</td>
-							<td class="quantity">Quantity</td>
+							<td class="image">Gambar</td>
+							<td class="description">Nama</td>
+							<td class="price">Harga</td>
+							<td class="quantity">Jumlah</td>
 							<td class="total">Total</td>
 							<td>Action</td>
 						</tr>
@@ -66,12 +66,12 @@
 <section id="do_action">
 	<div class="container">
 		<div class="heading">
-			<h3>What would you like to do next?</h3>
-			<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+			<h3>Apa yang harus kamu lakukan selanjutnya?</h3>
+			<p>Pilih jika kamu memiliki kupon diskon</p>
 		</div>
 		<div class="breadcrumbs">
 			<ol class="breadcrumb">
-			  <li><a href="#">Home</a></li>
+			  <li><a href="#">Beranda</a></li>
 			  <li class="active">Metode Pembayaran</li>
 			</ol>
 		</div>
